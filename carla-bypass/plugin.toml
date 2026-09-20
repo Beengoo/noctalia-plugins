@@ -1,0 +1,26 @@
+id = "beengoo/carla-bypass"
+name = "Carla Bypass"
+version = "0.1.0"
+plugin_api = 21
+license = "MPL 2.0"
+icon = "piano"
+author = "beengoo"
+description = "Makes Carla plugin bypassing more accesable truth bar widget"
+
+[[widget]]
+id = "carla"
+entry = "bar.luau"
+
+[[panel]]
+id = "panel"
+entry = "panel.luau"
+placement = "floating"
+width = 330
+height = 300
+position = "follow_bar"
+open_near_click = true
+dismiss_on_outside_click = true
+
+[[service]]
+id = "bridge"
+entry = "service.luau"

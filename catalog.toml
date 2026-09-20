@@ -1,0 +1,14 @@
+[[plugin]]
+id = "beengoo/carla-bypass"
+path = "carla-bypass"
+name = "Carla Bypass"
+version = "0.1.0"
+updated_at = 1784946285
+added_at = 1781039692
+author = "beengoo"
+license = "MPL 2.0"
+icon = "adjustments"
+description = "Bypass toggle for Carla plugins"
+plugin_api = 9
+tags = ["audio"]
+
