@@ -1,7 +1,7 @@
 id = "beengoo/carla-bypass"
 name = "Carla Bypass"
-version = "0.1.0"
-plugin_api = 21
+version = "0.1.1"
+plugin_api = 24
 license = "MPL 2.0"
 icon = "piano"
 author = "beengoo"

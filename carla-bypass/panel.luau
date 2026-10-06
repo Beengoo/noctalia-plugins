@@ -142,5 +142,6 @@ end
 
 function onOpen()
   panel.setWantsSecondTicks(true)
+  render()
   load(true)
 end

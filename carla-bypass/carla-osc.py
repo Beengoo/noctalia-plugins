@@ -378,10 +378,6 @@ def main():
         run_daemon()
     elif args.refresh:
         send_local("/noctalia/refresh")
-    elif args.refresh:
-        # The daemon receives live state from Carla. This is intentionally a
-        # no-op; it exists so the panel can request a harmless refresh.
-        pass
     else:
         parser.print_help()
 
